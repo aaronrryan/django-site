@@ -1,0 +1,15 @@
+{% extends 'main/base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-8">
+        <h1 class="display-4">Welcome to Our Site</h1>
+        <p class="lead">This is the home page of our website.</p>
+        <hr class="my-4">
+        <p>Discover our amazing products and services.</p>
+        <a class="btn btn-primary btn-lg" href="{% url 'main:products' %}" role="button">View Products</a>
+    </div>
+</div>
+{% endblock %} 

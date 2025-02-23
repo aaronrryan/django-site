@@ -1,4 +1,4 @@
-# Django Business Website
+# Django Business Website from scratch using Cursor IDE
 
 A modern business website built with Django and Bootstrap, featuring multiple pages and a contact form.
 
